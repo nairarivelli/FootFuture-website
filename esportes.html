@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" type="image/png" href="Img_Loja/logo.png" style="border-radius: 100%;">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Esportivos</title>
+</head>
+
+<body style=" background-color: #fcf9f9;">
+    <header>
+        <div class="logo">
+            <a><img style="width: 40px;" src="Img_Loja/logo.png" alt=""></a>
+        </div>
+        <nav>
+            <ul class="nav">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="casual.html">Casuais</a></li>
+                <li><a href="esportes.html">Esportivos</a></li>
+                <li><a href="sandalhas.html">Sandálias</a></li>
+                <li><a href="streetwear.html">Streetwear</a></li>
+                <li><a class="snkrs" href="snkrs.html">Snkrs</a></li>
+            </ul>
+        </nav>
+        <div class="group">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                <g>
+                    <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                </g>
+            </svg>
+            <input placeholder="Search" type="search" class="input">
+        </div>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Img_Loja/Frame_1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Img_Loja/Frame_2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Img_Loja/Frame_3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br><br><br>
+
+    <section class="grid">
+        <div class="container_card3">
+            <h1>
+                Esportivos (12)
+            </h1>
+            <ul>
+                <li>
+                    <a href="casual.html">Casual</a>
+                </li>
+                <li>
+                    <a href="esportes.html">Esportivos</a>
+                </li>
+                <li>
+                    <a href="sandalhas.html">Sandálias</a>
+                </li>
+                <li>
+                    <a href="streetwear.html">StreetWear</a>
+                </li>
+                <li>
+                    <a href="snkrs.html">Snkrs</a>
+                </li>
+            </ul>
+            <h1>
+                FILTROS
+            </h1>
+            <div class="div-filter">
+                <p id="container-filter-gaveta-um" class="filter">COR
+                    <i id="filter-plus-um" class="fa fa-plus" style="margin-left: 170px; font-size: 16px;">
+                    </i>
+                </p>
+                <fieldset>
+                    <div class="container-cor-filter">
+                        <div id="card-cor-filter1" class="card-cor-filter"></div>
+                        <div id="card-cor-filter2" class="card-cor-filter"></div>
+                        <div id="card-cor-filter3" class="card-cor-filter"></div>
+                        <div id="card-cor-filter4" class="card-cor-filter"></div>
+                        <div id="card-cor-filter5" class="card-cor-filter"></div>
+                        <div id="card-cor-filter6" class="card-cor-filter"></div>
+                        <div id="card-cor-filter7" class="card-cor-filter"></div>
+                        <div id="card-cor-filter8" class="card-cor-filter"></div>
+                        <div id="card-cor-filter9" class="card-cor-filter"></div>
+                        <div id="card-cor-filter10" class="card-cor-filter"></div>
+                        <div id="card-cor-filter11" class="card-cor-filter"></div>
+                        <div id="card-cor-filter12" class="card-cor-filter"></div>
+                        <div id="card-cor-filter13" class="card-cor-filter"></div>
+                        <div id="card-cor-filter14" class="card-cor-filter"></div>
+                        <div id="card-cor-filter15" class="card-cor-filter"></div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="div-filter">
+                <h2 id="container-filter-gaveta-dois" class="filter">TAMANHO
+                    <i2 id="filter-plus-dois" class="fa fa-plus" style="margin-left: 122px; font-size: 16px;">
+                    </i2>
+                </h2>
+                <fieldset>
+                    <div class="container-tamanho-filter">
+                        <div style="margin-left: 0px;" class="card-tamanho-filter">
+                            <p>PP</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>P</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>GG</p>
+                        </div>
+                        <div style="margin-left: 0px;" class="card-tamanho-filter">
+                            <p>34</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>34,5</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>35</p>
+                        </div>
+                        <div style="margin-left: 0px;" class="card-tamanho-filter">
+                            <p>35,5</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>36</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>37</p>
+                        </div>
+                        <div style="margin-left: 0px;" class="card-tamanho-filter">
+                            <p>37,5</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>38</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>39</p>
+                        </div>
+                        <div style="margin-left: 0px;" class="card-tamanho-filter">
+                            <p>39,5</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>40</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>40,5</p>
+                        </div>
+
+
+
+                        <div style="margin-left: 0px;" class="card-tamanho-filter">
+                            <p>41</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>42</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>42,5</p>
+                        </div>
+                        <div style="margin-left: 0px;" class="card-tamanho-filter">
+                            <p>43</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>43,5</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>44</p>
+                        </div>
+                        <div style="margin-left: 0px;" class="card-tamanho-filter">
+                            <p>45</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>46</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>46,5</p>
+                        </div>
+                        <div style="margin-left: 0px;" class="card-tamanho-filter">
+                            <p>47</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>47,5</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>48</p>
+                        </div>
+                        <div style="margin-left: 0px;" class="card-tamanho-filter">
+                            <p>48,5</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>49</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>49,5</p>
+                        </div>
+                        <div style="margin-left: 0px;" class="card-tamanho-filter">
+                            <p>50</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>50,5</p>
+                        </div>
+                        <div class="card-tamanho-filter">
+                            <p>51</p>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="div-filter">
+                <h3 id="container-filter-gaveta-tres" class="filter">PREÇO
+                    <i3 id="filter-plus-tres" class="fa fa-plus" style="margin-left: 150px; font-size: 16px;">
+                    </i3>
+                </h3>
+                <fieldset>
+                    <a href="" class="container-preco-filter">
+                        <p class="card-preco-filter-um">
+
+                        </p>
+                        <p class="card-preco-filter-dois">
+                            Até R$199,99
+                        </p>
+                    </a>
+                    <a href="" class="container-preco-filter">
+                        <p class="card-preco-filter-um">
+
+                        </p>
+                        <p class="card-preco-filter-dois">
+                            R$200,00 a R$299,99
+                        </p>
+                    </a>
+                    <a href="" class="container-preco-filter">
+                        <p class="card-preco-filter-um">
+
+                        </p>
+                        <p class="card-preco-filter-dois">
+                            R$300,00 a R$399,99
+                        </p>
+                    </a>
+                    <a href="" class="container-preco-filter">
+                        <p class="card-preco-filter-um">
+
+                        </p>
+                        <p class="card-preco-filter-dois">
+                            R$400,00 a R$499,99
+                        </p>
+                    </a>
+                    <a href="" class="container-preco-filter">
+                        <p class="card-preco-filter-um">
+
+                        </p>
+                        <p class="card-preco-filter-dois">
+                            R$500,00 a R$599,99
+                        </p>
+                    </a>
+                    <a href="" class="container-preco-filter">
+                        <p class="card-preco-filter-um">
+
+                        </p>
+                        <p class="card-preco-filter-dois">
+                            Acima de R$600,00
+                        </p>
+                    </a>
+                </fieldset>
+            </div>
+            <div class="div-filter">
+                <h4 id="container-filter-gaveta-quatro" class="filter">GÊNERO
+                    <i4 id="filter-plus-quatro" class="fa fa-plus" style="margin-left: 138px; font-size: 16px;">
+                    </i4>
+                </h4>
+                <fieldset>
+                    <a href="" class="container-genero-filter">
+                        <p class="card-genero-filter-um">
+
+                        </p>
+                        <p class="card-genero-filter-dois">
+                            Masculino
+                        </p>
+                    </a>
+                    <a href="" class="container-genero-filter">
+                        <p class="card-genero-filter-um">
+
+                        </p>
+                        <p class="card-genero-filter-dois">
+                            Feminino
+                        </p>
+                    </a>
+                </fieldset>
+            </div>
+            <div class="div-filter">
+                <h5 id="container-filter-gaveta-cinco" class="filter">TIPO DE PRODUTO
+                    <i5 id="filter-plus-cinco" class="fa fa-plus" style="margin-left: 60px; font-size: 16px;">
+                    </i5>
+                </h5>
+                <fieldset>
+                    <a href="" class="container-tipoProduto-filter">
+                        <p class="card-tipoProduto-filter-um">
+
+                        </p>
+                        <p class="card-tipoProduto-filter-dois">
+                            Calçados
+                        </p>
+                    </a>
+                </fieldset>
+            </div>
+        </div>
+        <div class="container_card4">
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto1.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis Nike ZoomX Invincible Run Flyknit Masculino
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 1099,99
+
+                    </h2>
+
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto2.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis Ultraboost 22
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 1199,99
+                    </h2>
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto3.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis Adidas 4D FWD
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 1499,99
+                    </h2>
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto4.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis Asics Patriot 12
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 329,99
+                    </h2>
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto5.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis de Treino Under Armour HOVR Apex 3
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 899,99
+                    </h2>
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto6.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis Sportstyle Under Armour HOVR SLK EVO
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 799,99
+                    </h2>
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto7.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis Trainer V
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 599,99
+                    </h2>
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto8.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis Nike Free Metcon 4 Unissex
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 649,99
+                    </h2>
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto9.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis Nike Zoom Fly 4 Masculino
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 739,99
+                    </h2>
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto10.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis Nike Air Zoom Pegasus 38 A.I.R. Nathan Bell Unissex
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 819,99
+                    </h2>
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto11.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis de Corrida Mizuno Wave Creation 23
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 1199,99
+                    </h2>
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="imagem">
+                    <img src="Img_Prod/esportes/produto12.png" alt="">
+                </div>
+                <div class="desc">
+                    <h1>
+                        Tênis Flyer Runner
+                    </h1>
+                    <p>
+                        Esportivo
+                    </p>
+                    <h2>
+                        R$ 299,90
+                    </h2>
+                    <button type="button" class="btn btn-dark">COMPRAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $('.filter').click(function (e) {
+            proximo = $(this).next();
+            $(proximo).slideToggle(400);
+        });
+
+        const campos = document.querySelectorAll('fieldset');
+        const inicio = () => {
+            campos.forEach(campo => {
+                $(campo).slideToggle(0);
+            });
+        }
+        inicio();
+
+    </script>
+
+
+    <script src="JS/app.js"></script>
+
+    <footer>
+        <div style="display: flex;">
+            <div class="containerFooter">
+            </div>
+            <div class="containerFooter">
+                <div class="cardFooter">
+                    <ul>
+                        <li><a href="pagar.php">Sobre Foot Future</a></li>
+                        <li><a href="duvidas.php">Suporte</a></li>
+                        <li><a href="duvidas.php">Contatos</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="index2.php">Home</a></li>
+                        <li><a href="pagar.php">StreetWear</a></li>
+                        <li><a href="estatisticaIndex.php">Snkrs</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="perfil3.php">Casuais</a></li>
+                        <li><a href="Nah.php">Sandalhas</a></li>
+                        <li><a href="esportes.php">Esportivos</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="duvidas.php">Central de ajuda</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="terms">
+            <div class="num1" style="color: white; font-size: 20px; margin-top: 50px;">
+                <p> Copyright &copy Foot Future 2022</p>
+            </div>
+            <div class="num2" style="color: white; font-size: 20px; margin-top: 50px;">
+                <p>Privacy Policy · Terms & Conditions</p>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/cde50c6c3d.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </footer>
+</body>
+
+</html>

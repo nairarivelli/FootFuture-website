@@ -1,0 +1,490 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  border-bottom: solid #1f1f1f 2px;
+  color: #1f1f1f;
+}
+.logo a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #1f1f1f;
+  text-decoration: none;
+}
+li a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1f1f1f;
+  text-decoration: none;
+}
+/* From uiverse.io by @alexruix */
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  max-width: 400px;
+}
+
+.input {
+  width: 600px;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #1f1f1f;
+  transition: 0.3s ease;
+}
+
+.input::placeholder {
+  color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+  outline: none;
+  border-color: rgba(61, 61, 61, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(32, 32, 32, 0.1);
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+}
+
+.nav {
+  list-style: none;
+}
+.nav a {
+  list-style: none;
+}
+.nav li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav li a {
+  transition: all 0.3s ease 0;
+  color: #1f1f1f;
+}
+.nav li a:hover {
+  color: #666666;
+}
+.snkrs {
+  padding-right: 0px;
+}
+body {
+  background-color: #1f1f1f;
+}
+.title-principal {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 40px;
+  padding: 30px;
+  align-self: centers;
+}
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .card {
+  flex: 1 1 250px;
+  background-color: rgba(0, 255, 255, 0);
+  margin-left: 30px;
+  height: 400px;
+  margin-top: 20px;
+  border: 0;
+}
+.card .imagem {
+  width: 100%;
+  height: 250px;
+  background-color: brown;
+}
+.card .imagem img {
+  width: 100%;
+  height: 100%;
+}
+.card .desc {
+  width: 100%;
+  height: 0px;
+  text-align: justify;
+}
+.card .desc h1,
+.card .desc h2 {
+  font-size: 20px;
+}
+.desc h1 {
+  margin-top: 5px;
+}
+
+.btn {
+  margin-top: 5px;
+}
+
+.grid {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #472f1600;
+}
+.container_card4 {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 30px;
+  flex-wrap: wrap;
+  background-color: #22024700;
+}
+.container_card4 .card4 {
+  flex: 1 1 1px;
+  margin: 30px;
+  height: 420px;
+  text-align: center;
+}
+.card4 .imagem {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(165, 42, 42, 0);
+}
+.card4 .imagem img {
+  width: 100%;
+  height: 100%;
+}
+.card4 .desc {
+  width: 100%;
+  height: 150px;
+  text-align: justify;
+  background-color: rgb(255, 255, 255);
+}
+.card4 .desc h1,
+.card4 .desc h2,
+.card4 .desc p,
+.card4 .desc button {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.header2 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 48, 48);
+  align-content: center;
+  justify-content: space-around;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+.tudo {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-content: space-around; /*Usado para dar espaçamento entre as imagens*/
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-style: center;
+}
+/* From uiverse.io by @menezes11 */
+
+.imagem {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #971414;
+  box-shadow: 0px 15px 20px #ff2323;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+.container_card3 {
+  margin-top: 10px;
+  background-color: #04cdff00;
+  width: 28%;
+  border-right: 1px dashed black;
+}
+.container_card3 h1 {
+  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.div-filter {
+  border-top: outset #666666 1px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.container_card3 ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.container_card3 ul li {
+  list-style: none;
+}
+.container_card3 ul li a {
+  text-decoration: none;
+  color: black;
+}
+.container_card3 ul li a:hover {
+  color: #666666b4;
+}
+
+.container_card3 p,
+.container_card3 h2,
+.container_card3 h3,
+.container_card3 h4,
+.container_card3 h5 {
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.container-cor-filter,
+.container-tamanho-filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-cor-filter .card-cor-filter {
+  align-items: center;
+  margin: 10px 15px 10px 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.container-tamanho-filter .card-tamanho-filter {
+  text-align: center;
+  margin: 10px 10px 10px 15px;
+  width: 50px;
+  height: 25px;
+  border: 1px solid #d8d8d8;
+}
+.card-tamanho-filter:hover {
+  border: 1px solid black;
+}
+.card-tamanho-filter p {
+  font-weight: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#card-cor-filter1 {
+  background-color: #ffd534;
+  margin-left: 35px;
+  margin-top: 0px;
+}
+#card-cor-filter2 {
+  margin-top: 0px;
+  background-color: #1790c7;
+}
+#card-cor-filter3 {
+  margin-top: 0px;
+  background-color: #ebe1bd;
+}
+#card-cor-filter4 {
+  background-color: #ffffff;
+  border: gray 1px solid;
+  margin-left: 35px;
+}
+#card-cor-filter5 {
+  background-color: #797979;
+}
+#card-cor-filter6 {
+  background-color: #e6b001;
+}
+#card-cor-filter7 {
+  background-color: #f36a27;
+  margin-left: 35px;
+}
+#card-cor-filter8 {
+  background-color: #8f5d40;
+}
+#card-cor-filter9 {
+  background: linear-gradient(
+    -160deg,
+    rgba(0, 18, 37, 1) 30%,
+    rgba(0, 72, 167, 1) 39%,
+    rgba(180, 16, 58, 1) 49%,
+    rgba(149, 36, 94, 1) 57%,
+    rgba(133, 0, 18, 1) 60%,
+    rgba(130, 2, 20, 1) 63%
+  );
+}
+#card-cor-filter10 {
+  background-color: #e7e7e7;
+  margin-left: 35px;
+}
+#card-cor-filter11 {
+  background-color: #111111;
+}
+#card-cor-filter12 {
+  background-color: #d82a90;
+}
+#card-cor-filter13 {
+  background-color: #8c429f;
+  margin-left: 35px;
+  margin-bottom: 30px;
+}
+#card-cor-filter14 {
+  background-color: #7aba3c;
+  margin-bottom: 30px;
+}
+#card-cor-filter15 {
+  background-color: #e7352a;
+  margin-bottom: 30px;
+}
+
+.container-preco-filter,
+.container-genero-filter,
+.container-tipoProduto-filter {
+  display: flex;
+  text-decoration: none;
+}
+.card-preco-filter-um,
+.card-genero-filter-um,
+.card-tipoProduto-filter-um {
+  border: 2px solid #d8d8d8;
+  background-color: rgb(255, 255, 255);
+  margin-top: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+.card-preco-filter-dois,
+.card-genero-filter-dois,
+.card-tipoProduto-filter-dois {
+  margin-left: 5px;
+  margin-top: 4px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.terms {
+  text-align: center;
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 800px) {
+  footer {
+    height: 850px;
+  }
+
+  .cardFooter ul li a {
+    margin-top: 10px;
+  }
+  .cardFooter {
+    flex-wrap: wrap;
+  }
+
+  .num1,
+  .num2 {
+    margin: 0%;
+    margin-left: 0%;
+  }
+}
+
+/* FOOTER*/
+.containerFooter .cardFooter {
+  display: flex;
+}
+.cardFooter ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.cardFooter ul li {
+  margin-left: 80px;
+}
+.cardFooter ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.containerFooter {
+  margin-top: 80px;
+}
+.oba {
+  transform: rotate(180deg);
+}
+
+.desc h2 {
+  font-family: "Montserrat", sans-serif;
+}
+.desc h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1px;
+  font-weight: lighter;
+}
+button {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 5px;
+}
+.container_card4 {
+  padding: 40px;
+  padding-bottom: 40px;
+}
+.frame {
+  height: 100vh;
+  width: 100vw;
+}
